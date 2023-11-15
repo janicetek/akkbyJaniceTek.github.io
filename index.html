@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKK Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2acedf3b83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/background3_files/akk2.JPG" class = "logo">
+            <ul id = "sidemenu">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#profession">Our Expertise</a></li>
+                <li><a href = "#projectdetails">Project Details</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>ANG AKK ENGINEERIN SDN. BHD.</p>
+            <h1>Learn more about <span>our projects.</span></h1>
+        </div>
+    </div>
+</div>
+
+<!--ABOUT--> 
+<div id= "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src= "images/background2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>A.K.K. Engineering Sdn. Bhd. is  led by experienced professionals, emphasizes quality and service. It holds G7 contractor registration with CIDB Malaysia, ISO 9001:2008 certification, and authorization as a Pressure Vessel manufacturer licensed by ASME and NB. Registered with JKKP, A.K.K. Engineering is competent in pressure vessel manufacturing. The company has participated in various industries nationwide and expanded internationally since 2007, completing over RM 250 million worth of projects. In 2015, subsidiaries were established in Borneo and Singapore, diversifying into construction material supply and logistics. A.K.K. Group aims for steady growth, aligning with its vision for the future. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick = "opentab('history')">History</p>
+                    <p class="tab-links" onclick = "opentab('more about us')">More about us</p>
+                    <p class="tab-links" onclick = "opentab('E.P.C')">E.P.C</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id = "history">
+                        <ul>
+                            <li><span>Established in 1996 Pasir Gudang, Johor, Malaysia</span><br></li>
+                            <li>Class G7 contractor of Construction Industry Developement Board (CIDB) Malaysia<br></li>
+                            <li>ISO 9001:2015 certified<br></li>
+                            <li>JKKP (DOSH) certified<br></li>
+                            <li><span>Approved pressure vessel manufacturer and repairer by DOSH Malaysia. (BT21/652)</span><br></li>
+                            <li>ASME U-Stamp, ASME S-Stamp, National Board R-Stamp & NB-Stamp certifications of pressure vessel manufacturing & repair</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "more about us">
+                        <ul>
+                            <li>Palm oil, oleochemical, biofuel, oil and gas, power plant, chemical, fertilizer, food processing and other manufacturing plants throughout East & West Malaysia<br></li>
+                            <li>Overseas jobs in Middle East & PNG<br></li>
+                            <li>Multi-discipline service provider : piling, civil & structural works, piping, storage tanks, pressure vessel, insulation, fire fighting services, electrical works<br></li>
+                            <li>Annual turnover > RM 70mils<br></li>
+                            <li>Qualified Project Management Team: 1 Professional Engineer, 1 Engineering Manager, 2 Project Managers, 4 Project Engineers, 2 CAD Engineers, 2 Quality Controller, 2 Safety Officer, 7 Supervisors<br></li>
+     
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "E.P.C">
+                        <ul>
+                            <li><br>Started from general contracting -> Process plant construction -> EPC Contractor</li>
+                            <li><br>Milestone 1: 300TPD palm oil refinery plant & tank farm, Sime Darby Group (2018)</li>
+                            <li><br>Milestone 2: 1440MW power plant tanks, TNB Group (2018)</li>
+                            <li><br>In-house tank, pressure vessel, piping, electrical and instrumentation engineering team.</li>
+                            <li><br>In-house CAD team: Tekla, AutoCAD, 3D Plant</li>
+                            <li><br>Associate partners in civil, structural, fire fighting engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--projects-->
+<div id="profession">
+    <div class="container">
+        <h1 class="sub-title">Our Expertise</h1>
+        <div class="profession-list">
+            <div>
+                <h2>Pressure Vessels: ASME SECTION VIII DIV 1</h2>
+            </div>
+            <div>
+                <h2>Heat Exchangers: ASME + TEMA</h2>
+            </div>
+            <div>
+                <h2>Storage Tanks: API-650</h2>
+            </div>
+            <div>
+                <h2>Pipe Ducting: ASME B31.3</h2>
+            </div>
+            <div>
+                <h2>Rectangular Tank: ROARK'S GEP</h2>
+            </div>
+            <div>
+                <h2>Piping Spools: ASME B31.3</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PROJECT DETAILS-->
+<div id="projectdetails">
+    <div class="container">
+        <h1 class="sub-title">Project Details</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src = "images/pro1.png">
+                <div class="layer">
+                    <p><br> Project: ASAHI KASEI SSP EXP PROJ [AKKF1905] <br>
+                        End User: PETRONAS <br>
+                        Client: JFE ENGINEERING CORP. <br>
+                        Category: PV <br>
+                        Period: 09/19-11/19 <br>
+                        Design Code: ASME SECT 8 DIV 1 <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro2.png">
+                <div class="layer">
+                    <p><br> Project: 1806 PACKAGE [AKKF1908] <br>
+                        End User: BIOCON MALAYSIA <br>
+                        Client: BIOCON MALAYSIA <br>
+                        Category: API-650 TANK <br>
+                        Period: 12/19-08/20 <br>
+                        Design Code: API-650 12TH ED. <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro3.png">
+                <div class="layer">
+                    <p><br> Project: [AKKF2102] <br>
+                        End User: NATURAL OLEO/WILMAR <br>
+                        Client: NATURAL OLEO/WILMAR <br>
+                        Category: API-650 TANK <br>
+                        Period: 7/21-10/21 <br>
+                        Design Code: ASME SECT 8 DIV 1/TEMA <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro4.png">
+                <div class="layer">
+                    <p><br> Project: EPCC OF TITANIUM FACILITY PROJECT IN PIC [AKKF2201] <br>
+                        End User: PETRONAS <br>
+                        Client: VA TECH WABAG LTD <br>
+                        Category: API-650 TANK <br>
+                        Period: 5/22-10/22 <br>
+                        Design Code: API-650 13TH ED. <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro5.png">
+                <div class="layer">
+                    <p><br> Project: EPCC OF TITANIUM FACILITY PROJECT IN PIC [AKKF2201] <br>
+                        End User: PETRONAS <br>
+                        Client: VA TECH WABAG LTD <br>
+                        Category: API-650 TANK <br>
+                        Period: 5/22-10/22 <br>
+                        Design Code: API-650 13TH ED. <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro6.png">
+                <div class="layer">
+                    <p><br> Project: [AKKF2202] <br>
+                        End User: BIOCON MALAYSIA <br>
+                        Client: BIOCON MALAYSIA <br>
+                        Category: PV <br>
+                        Period: 11/22-1/23 <br>
+                        Design Code: ASME SECT VIII DIV 1 <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro7.png">
+                <div class="layer">
+                    <p><br> Project: SCH. WASTE MGMT CENTRE JOHOR, KOTA TINGGI [AKKF2203]			
+                        <br>
+                        End User: SCH. WASTE MGMT CENTRE JOHOR, KOTA TINGGI			
+                        <br>
+                        Client:MUTIARA ETNIK			
+                        <br>
+                        Category: DUCTING	
+                        <br>
+                        Period: 6/23-9/23 <br>
+                        Design Code: ASME B31.3	
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro8.png">
+                <div class="layer">
+                    <p><br> Project: C312-19 [AKKF2205] <br>
+                        End User: Indonesia			
+                        <br>
+                        Client: JJ-Lurgi Engineering Sdn Bhd			
+                        <br>
+                        Category: PIPING	
+                        <br>
+                        Period: 12/22-1/23 <br>
+                        Design Code: ASME B31.3	
+                        <br>
+                        Originator: Stephen T
+                    </p> 
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro9.png">
+                <div class="layer">
+                    <p><br> Project: c327 [AKKF2206] <br>
+                        End User:Intercontinental Speciality Fats Sdn Bhd			
+                        <br>
+                        Client: Intercontinental Speciality Fats Sdn Bhd			
+                        A <br>
+                        Category: PIPING	
+                        <br>
+                        Period: 1/23-4/23 <br>
+                        Design Code: ASME B31.3	
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro10.png">
+                <div class="layer">
+                    <p><br> Project: T6000s System Upgrade & Modification for Biofuel Feedstock			
+                        [AKKF2207] <br>
+                        End User: DIALOG TERMINAL 1 			
+                        <br>
+                        Client: DIALOG TERMINAL 1 			
+                        <br>
+                        Category: RECT. TANK	
+                        <br>
+                        Period: 6/23-7/23 <br>
+                        Design Code: ROARK'S GEP	
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro11.png">
+                <div class="layer">
+                    <p><br> Project: C327[AKKF2208] <br>
+                        End User: Indonesia			
+                        <br>
+                        Client: JJ-Lurgi Engineering Sdn Bhd			
+                        <br>
+                        Category: PIPING	
+                        <br>
+                        Period: 2/23-4/23 <br>
+                        Design Code: ASME B31.3	
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+
+            </div>
+            <div class="project">
+                <img src = "images/pro12.png">
+                <div class="layer">
+                    <p><br> Project: 1814 PACKAGE [AKKF2301] <br>
+                    End User: BIOCON MALAYSIA			
+                    <br>
+                    Client: BIOCON MALAYSIA			
+                    <br>
+                    Category: API-650 TANK	
+                    <br>
+                    Period: 1/23-12/23 <br>
+                    Design Code: API-650 12th Ed.	
+                    <br>
+                    Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro13.png">
+                <div class="layer">
+                    <p><br> Project: [AKKF2302] <br>
+                        End User: NEXSOL MALAYSIA SDN BHD			
+                        <br>
+                        Client: NEXSOL MALAYSIA SDN BHD			
+                        <br>
+                        Category: HX <br>
+                        Period: 3/23-9/23 <br>
+                        Design Code:ASME SECT VIII DIV 1/ TEMA	
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro14.png">
+                <div class="layer">
+                    <p><br> Project: [AKKF2302] <br>
+                        End User: NATURAL OLEO( WILMAR)			
+                        <br>
+                        Client: NATURAL OLEO( WILMAR)					
+                        <br>
+                        Category: HX <br>
+                        Period: 3/23-9/23 <br>
+                        Design Code:ASME SECT VIII DIV 1/ TEMA	
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src = "images/pro15.png">
+                <div class="layer">
+                    <p><br> Project: [AKKF2302] <br>
+                        End User:  DUBIOS NATURAL ESTER			
+                        <br>
+                        Client: DUBIOS NATURAL ESTER			
+                        <br>
+                        Category: HX <br>
+                        Period: 3/23-9/23 <br>
+                        Design Code: ASME SECT VIII DIV 1/ TEMA
+                        <br>
+                        Originator: Stephen T
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Back To Home</a>
+    </div>
+</div>
+
+<!--CONTACT-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class: sub-title>Contact</h1>
+                
+                <p>Tel: +6012 639 8779 (Stephen T) </p>
+                
+                </div>
+            </div>
+            <div class="contactright">
+                <form name = "submit-to-google-sheet">
+                    <input type = "text" name = "Name" placeholder = "Your Name" required>
+                    <input type = "email" name = "email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
+                    <button type = "submit" class="btn btn2">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by Janice Tek</p>
+
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); <!-- class of tab-links-->
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); <!--to display the contents when pressing tabs-->
+    }
+</script>
+
+<script> <!--to move the red bar on the right using JS-->
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVzzJaAYE-iGSV75_0ZuqlSqRnEyrAdoXESSOWwx4U_Oc51zwFOVFCUC8zbrpClokH1A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
