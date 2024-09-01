@@ -1,5 +1,5 @@
-# website.github.io
+AngAKK Engineering Project Portfolio Website
 
-Built this Projects Portfolio Website from scratch using HTML, CSS, and JS for an engineering company.
+[Description:]
+This is a project portfolio website which showcases the company's projects, services, and achievements.
 
-It was definitely a fun experience for me observing how lines of codes can turn into a visually compelling art. :)
